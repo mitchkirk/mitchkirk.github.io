@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta type="description" content="Mitchell Kirk's ICT Website">
+<meta type="keywords" content="Mitchell Kirk, ICT, Website">
+<meta type="author" content="Mitchell Kirk">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <meta http-equiv="refresh" content="30"> -->
+
+<head>
+    <title>Home &raquo; Mitchell Kirk ICT Website</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/15d56e0ea9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a href="index.html"><img src="images/logo.png" alt="Logo for the" class="align-logo">
+            </a>
+            <a href="index.html" class="nav-link burntred">
+                <i class="fa-duotone fa-house"></i>
+                HOME</a>
+            <a href="cakes-for-sale.html" class="nav-link burntred">
+                <i class="fa-duotone fa-cupcake"></i>
+                CAKES FOR SALE</a>
+            <a href="about-us.html" class="nav-link burntred">
+                <i class="fa-duotone fa-square-info"></i>
+                ABOUT US</a>
+            <a href="contact-us.html" class="nav-link burntred">
+                <i class="fa-duotone fa-map-location-dot"></i>
+                CONTACT US</a>
+            <a href="credits.html" class="nav-link burntred">
+                <i class="fa-duotone fa-memo-circle-info"></i>
+                CREDITS</a>
+        </div>
+
+        <div class="content">
+            <div class="content-box">
+                <img src="images/large/cakeIcing1200.png" alt="Cake Icing" class="content-image"
+                    style="width: 100%; background-size: cover;">
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="content-box">
+                <div class="content-card">
+                    <span class="title">ABOUT US</span>
+                    <p>
+                        Special Cakes for All Occasions started a year ago by the store owner, Sam Rice, who wanted to
+                        share their love of baking with the world. Come and taste all the delightful cakes!
+                    </p>
+                    <div class="card-img-top "><img src="images/large/jobInterest975.jpg"
+                            style="width: 100%; background-size: contain;"></div>
+                </div>
+            </div>
+            <div class="content-box">
+                <div class="content-card cbb">
+                    <span class="title">JOB OPPORTUNITIES</span>
+                    <div class="job-text">
+                        <div style="padding:5px">
+                            <p>Come and work for us! We currently have two job openings, and we are looking for
+                                enthusiastic people to join our team.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="table-flex">
+                        <table class="table table-bordered">
+                            <tr>
+                                <th>Job title</th>
+                                <th>Job description</th>
+                                <th>Salary</th>
+                            </tr>
+                            <tr>
+                                <td>Pastry chef</td>
+                                <td>Specialises in pastry desserts. Must have four years of experience.</td>
+                                <td>$50,000 p.a.</td>
+                            </tr>
+                            <tr>
+                                <td>Sales assistant</td>
+                                <td>Serves customers in the shop and operates the cash register.</td>
+                                <td>$25,000 p.a.</td>
+                            </tr>
+                        </table>
+                        <a href="#macarons" rel="modal:open" class="form-submit-button-sm floatright">CLICK HERE TO APPLY!</a>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        2023 &copy; Special Cakes For All Occasions &middot; Created & Designed by Mitchell Kirk
+        <div class="footer-links">
+            <a href="index.html" class="footer-link burntred">
+                <i class="fa-duotone fa-house"></i>
+                HOME</a>
+            <a href="cakes-for-sale.html" class="footer-link burntred">
+                <i class="fa-duotone fa-cupcake"></i>
+                CAKES FOR SALE</a>
+            <a href="about-us.html" class="footer-link burntred">
+                <i class="fa-duotone fa-square-info"></i>
+                ABOUT US</a>
+            <a href="#" class="footer-link burntred">
+                <i class="fa-duotone fa-map-location-dot"></i>
+                CONTACT US</a>
+            <a href="credits.html" class="footer-link burntred">
+                <i class="fa-duotone fa-memo-circle-info"></i> CREDITS
+            </a>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Modal -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+    <!-- Modal HTML embedded directly into document -->
+    <!-- Macaron Modal-->
+    <div id="macarons" class="modal">
+        <h1>Application Form</h1>
+        <form href="mailto:specialcakes@email.com">
+            <label for="name">Name:</label>
+            <input class="form-style" type="text" name="name" placeholder="Name" required>
+            <label for="email">Email:</label>
+            <input class="form-style" type="email" name="email" placeholder="Email" required>
+            <label for="phone">Phone Number:</label>
+            <input class="form-style" type="tel" name="phone" placeholder="Phone Number" required>
+            <label for="jobs">Role:</label>
+            <select name="jobs" id="jobs" size="2" placeholder="Select One">
+                <option value="sales">Sales Associate</option>
+                <option value="chef">Pastry Chef</option>
+            </select>
+            <button class="form-submit-button" type="submit">Submit</button>
+        </form>
+        <br>
+
+        <a href="#" class="form-submit-button-burntred floatright center-text" rel="modal:close">Close</a>
+    </div>
+</body>
+
+</html>
