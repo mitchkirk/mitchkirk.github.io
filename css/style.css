@@ -525,3 +525,8 @@ tr {
 .table-bordered td {
     border: 1px solid #0C243C !important;
 }
+
+.figure-caption {
+    font-size: .875em;
+    color: #aaaaaa;
+  }
